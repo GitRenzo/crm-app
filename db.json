@@ -1,0 +1,287 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nombre": "Juan",
+      "telefono": 102013313,
+      "email": "juan@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 2,
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 3,
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": 5,
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 6
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 7
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 8
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 9
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 10
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 11
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ETTE",
+      "email": "rloza@ette.biz",
+      "telefono": "123214",
+      "notas": "holas",
+      "id": 12
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 13
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 14
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 15
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 16
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 17
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 18
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 19
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 20
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 21
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 22
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 23
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 24
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 25
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 26
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 27
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 28
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 29
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 30
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "2334324",
+      "id": 31
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Codigo con Juan",
+      "email": "renzo@juan.com",
+      "telefono": "52402323",
+      "notas": "HOlas",
+      "id": 32
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Codigo con Juan",
+      "email": "renzo@juan.com",
+      "telefono": "52402323",
+      "notas": "HOlas",
+      "id": 33
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Codigo con Juan",
+      "email": "renzo@juan.com",
+      "telefono": "52402323",
+      "notas": "HOlas",
+      "id": 34
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Codigo con Juan",
+      "email": "renzo@juan.com",
+      "telefono": "52402323",
+      "notas": "HOlas",
+      "id": 35
+    },
+    {
+      "nombre": "Renzo",
+      "empresa": "ette",
+      "email": "rloza@ette.biz",
+      "telefono": "62402160",
+      "notas": "holas",
+      "id": 36
+    }
+  ]
+}

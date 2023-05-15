@@ -19,7 +19,7 @@ import { obtenerClientes } from "../data/Clientes";
 
 export function loader() {
     const clientes = obtenerClientes()
-    return clientes
+    return clientes  
 }
 
 

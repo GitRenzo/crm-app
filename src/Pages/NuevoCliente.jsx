@@ -1,6 +1,7 @@
-import { useNavigate, Form, useActionData } from "react-router-dom"
+import { useNavigate, Form, useActionData, redirect } from "react-router-dom"
 import Formulario from "../Componentes/Formulario"
 import Error from "../Componentes/Error"
+import { agregarClientes } from "../data/Clientes"
 
 // Un action siempre tiene un request
 export async function action({ request }) {
@@ -25,7 +26,9 @@ export async function action({ request }) {
     if (Object.keys(errores).length) {
         return errores
     }
-    return null
+
+    await  agregarClientes (datos) 
+    return redirect('/')
 }
 
 
@@ -59,7 +62,7 @@ const NuevoCliente = () => {
 
                     <input
                         type="submit"
-                        className="mt-5 w-full bg-blue-800 p-3 uppercase font-bold text-white text-lg"
+                        className="mt-5 w-full bg-blue-800 p-3 uppercase font-bold text-white text-lg hover:cursor-pointer hover:bg-blue-500"
                         value="Registrar cliente"
                     />
                 </Form>
