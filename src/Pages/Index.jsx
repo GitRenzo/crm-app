@@ -9,17 +9,53 @@
 // Loaders are specific to React Router, while useEffect can be used in any React component.
 // Loaders are also called when the route is first rendered, while useEffect can be called at any time. 
 // Finally, loaders can only return data, while useEffect can return any type of value.
-export function loader(){
-    return 'Desde loader'
+
+
+
+// *******************
+import { useLoaderData } from "react-router-dom"
+import Cliente from "../Componentes/Cliente";
+import { obtenerClientes } from "../data/Clientes";
+
+export function loader() {
+    const clientes = obtenerClientes()
+    return clientes
 }
 
+
 function Index() {
+    const clientes = useLoaderData()
     return (
         <>
             <h1 className="font-black text-4xl text-blue-900">Clientes</h1>
-            <p className="mt-3">Administra tus cliente</p>
+            <p className="mt-3">Administra tus clientes</p>
+            {clientes.length ?
+                (
+                    <table className="w-full bg-white shadow mt-5 table-auto">
+                        <thead className="bg-blue-800 text-white">
+                            <tr>
+                                <th className="p-2">Cliente</th>
+                                <th className="p-2">Contacto</th>
+                                <th className="p-2">Editar</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            {clientes.map((cliente) => (
+                                <Cliente
+                                    cliente={cliente}
+                                    key={cliente.id}
+                                />
+                            ))}
+                        </tbody>
+                    </table>
+                )
+                :
+                (<p className="text-center mt-10">No hay clientes</p>)
+            }
         </>
     )
 }
 
 export default Index
+// *****************

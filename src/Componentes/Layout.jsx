@@ -14,11 +14,12 @@ const Layout = () => {
                     <a href="/clientes/nuevo">Nuevo cliente</a> */}
 
                     {/* The new way */}
-                    <Link className={`${location.pathname === '/' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 text-white hover:text-blue-300`}
+                    {console.log(location.pathname)}
+                    <Link className={`${location.pathname === '/' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 hover:text-blue-300`}
                         to='/'>
                         Clientes
                     </Link>
-                    <Link className={`${location.pathname === '/clientes/nuevo' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2 text-white hover:text-blue-300`}
+                    <Link className={`${location.pathname === '/clientes/nuevo' ? 'text-blue-300' : 'text-white'} text-2xl block mt-2  hover:text-blue-300`}
                         to='/clientes/nuevo'>
                         Nuevo cliente
                     </Link>
