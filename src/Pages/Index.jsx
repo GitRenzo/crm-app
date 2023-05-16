@@ -17,7 +17,8 @@ import { useLoaderData } from "react-router-dom"
 import Cliente from "../Componentes/Cliente";
 import { obtenerClientes } from "../data/Clientes";
 
-export function loader() {
+export function loader({params}) {
+    // console.log(params);
     const clientes = obtenerClientes()
     return clientes  
 }
